@@ -1,0 +1,16 @@
+.container , [class*="col-"] {
+  border: 1px solid black;
+}
+
+[class*="col-"] {
+ height: 300px;
+ background-color: pink;
+ position: relative;
+}
+
+ [class*="col-"] > p {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
